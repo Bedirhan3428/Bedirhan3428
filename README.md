@@ -5,7 +5,7 @@
   </p>
   <p align="center">
     <a href="mailto:abimer2350@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://bedirhanimer.dev"><img src="https://img.shields.io/badge/-Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+    <a href="https://bedirhanimer.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   </p>
 </div>
 
