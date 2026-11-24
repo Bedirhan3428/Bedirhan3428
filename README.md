@@ -1,83 +1,178 @@
-<div align="center">
-  <h1 align="center">Bedirhan İmer</h1>
-  <p align="center">
-    <strong>16yo System & Full-Stack Architect | AI-Driven Developer & Hardware Hacker</strong>
-  </p>
-  <p align="center">
-    <a href="mailto:abimer2350@gmail.com"><img src="https://img.shields.io/badge/-Email-F59E0B?style=for-the-badge&logo=gmail&logoColor=black" /></a>
-    <a href="https://bedirhanimer.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=F59E0B" /></a>
-    <a href="https://github.com/Bedirhan3428"><img src="https://img.shields.io/badge/-GitHub-24292e?style=for-the-badge&logo=github&logoColor=white" /></a>
-  </p>
-</div>
-
----
-
-### 🧠 Architectural Philosophy & Mindset
-
-I approach software engineering and systems design with **analytical discipline and composure**. I build clean, high-performance, and resilient infrastructures, bridging the gap between low-level hardware modules and scalable cloud backend systems.
-
-*   **The Analytical Mindset:** Instead of applying quick hotfixes, I isolate problems at the core (e.g., resolving multithreading bottlenecks and thread-blocking issues in background agents by analyzing low-level logs).
-*   **Performance-First UI/UX:** Adhering to a minimalist geometric aesthetic (dark mode with amber-orange accents). I treat styling as a performance equation—engineering custom pre-processors like `mediaCompressor` to prevent network bloat.
-*   **Hardware & Silicon Synergy:** Breaking out of screen constraints. I program ESP32 microcontroller firmwares, construct headless arm64 Linux kernels on Orange Pi boards, design standalone physical Cyberdecks, and build offline AI voice assistants.
-
----
-
-### 🚀 Featured System Architectures & Projects
-
-#### 🎬 [Clofthel](https://github.com/Bedirhan3428/clofthel-backend) | *Automation & Distributed Scraper*
-> **Tech Stack:** `Playwright`, `Node.js`, `React Native`, `MongoDB Atlas`, `Node-Cron`
-
-A decoupled web-scraping ecosystem built to extract protected video sources using browser automation and mobile workarounds.
-*   **Decoupled Microservice:** Built scraping tasks as a standalone scraper module communicating with the central API via secure HTTP headers and custom API keys.
-*   **WebView Touch Injection Bypass:** Engineered a React Native overlay mechanism using a hidden WebView. Extracted video streams from secure hoster players by mapping canvas coordinates and programmatically injecting touch events.
-*   **Schema & Task Scheduler:** Deployed MongoDB Atlas replica set clusters utilizing dynamic `Mixed` schemas for flexible content fields, synchronized by `node-cron` sweeps.
-
-#### 🛡️ [Ashfir / Cloud Backup (v3)](https://github.com/Bedirhan3428/cloudbackup) | *Security & System Operations*
-> **Tech Stack:** `Python`, `Node.js`, `GCP (Cloud Functions)`, `AES-256`, `SSL Bypass`
-
-A background file-backup agent designed to stream datasets securely in highly restricted enterprise topologies.
-*   **SSL Interception Bypass:** Custom socket handshakes to route traffic silently and bypass local corporate SSL inspection proxies.
-*   **AES-256 Encryption:** Encrypts local directories client-side before chunking and uploading packets.
-*   **Serverless Migration:** Migrated server-side components from expensive dedicated VPS models to Google Cloud Functions, reducing operational hosting fees by 90%.
-
-#### 📊 [StokPro](https://github.com/Bedirhan3428/stokpro) | *SaaS / ERP Platform*
-> **Tech Stack:** `React`, `Chart.js`, `Firebase Auth`, `Hardware Scanning`
-*   **Barcode Scanner Hook (`BarcodeScanner.js`):** Interfaced directly with physical barcode scanning guns via browser key-listeners.
-*   **Billing Core (`useSubscription.js`, `ProductKey.jsx`):** Safeguarded SaaS logic using custom React billing hooks and digital tenant key verification.
-*   **Real-time Ledger (`Sales.js`, `Accounting.js`):** Monitors transaction data, margins, and accounts dynamically.
-🔗 [Live Production](https://www.stokpro.shop/)
-
-#### 🛍️ [MHM Collection](https://github.com/Bedirhan3428/mhmcollection) | *Serverless E-Commerce*
-> **Tech Stack:** `React`, `Firebase Cloud Functions`, `Firestore Security Rules`
-*   **Secure Access (`firestore.rules`):** Structured database reads/writes with tight Firestore rules to prevent database tampering.
-*   **Payment Simulator (`CheckoutPage.jsx`, `CartContext.jsx`):** Manages atomic shopping cart steps client-side without transaction drift.
-🔗 [Live Production](https://mhmcollection.org)
-
-#### 🌐 [Sigal Media](https://github.com/Bedirhan3428/sigalmedia) | *Social Network & Community Hub*
-> **Tech Stack:** `React`, `Node.js`, `MongoDB`, `PWA`, `mediaCompressor`
-*   **Social Dynamics:** Real-time Feed, Reels, Stories, and WebSockets-powered Chat.
-*   **Client Media Compression:** Developed `mediaCompressor` to compress image/video uploads locally on the client's device, maintaining extreme backend throughput.
-*   **Groq AI Integration (`botEngine`):** Deployed chatbot engines using Groq LLM API client parameters directly inside community chatrooms.
-
----
-
-### ⚡ Cyberdeck & Hardware Engineering
-
-*   **ESP32 Firmware:** Programming low-latency C++ firmware for telemetry, sensors, and remote transmission.
-*   **Orange Pi 4 Pro:** Tailored headless arm64 Linux kernels and GPIO integration to drive custom background agents.
-*   **Alya Voice Assistant:** A standalone voice assistant that performs local audio capture and initiates offline trigger functions (e.g., executing local system commands upon voice command recognition).
-
----
-
-### 🛠️ Tech Stack & Weapons of Choice
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:09090B,55:1C1917,100:F59E0B&text=Bedirhan%20%C4%B0mer&fontColor=FAFAFA&fontSize=52&fontAlignY=36&desc=Systems%20%C2%B7%20Full-Stack%20%C2%B7%20Hardware&descAlignY=58&descSize=18" alt="Bedirhan İmer" />
+</p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,nodejs,mongodb,firebase,python,gcp,tailwind,vite,html,css,git,linux" />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=F59E0B&center=true&vCenter=true&width=620&lines=16+y%2Fo+system+%26+full-stack+architect;Building+Shovrum%2C+a+social+app%2C+from+scratch;WebGL2+video+export%2C+E2E+chat%2C+web+push;ESP32+%C2%B7+Orange+Pi+%C2%B7+offline+voice+AI" alt="Typing intro" /></a>
+</p>
+
+<p align="center">
+  <a href="https://bedirhanimer.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=F59E0B" alt="Portfolio" /></a>
+  <a href="mailto:abimer2350@gmail.com"><img src="https://img.shields.io/badge/Email-F59E0B?style=for-the-badge&logo=gmail&logoColor=0A0A0A" alt="Email" /></a>
+  <a href="https://sigalmedia.com.tr"><img src="https://img.shields.io/badge/Shovrum-live-1C1917?style=for-the-badge&logo=googlechrome&logoColor=F59E0B" alt="Shovrum live" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Bedirhan3428&style=for-the-badge&color=F59E0B&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
+
+---
+
+## `$ whoami`
+
+```yaml
+name:      Bedirhan İmer
+age:       16
+role:      System & Full-Stack Architect · AI-driven developer · hardware tinkerer
+building:  Shovrum, a social app (feed, reels, stories, chat, video editor)
+stack:     TypeScript · Next.js · React Native · Node.js · Python · Firebase · GCP
+hardware:  ESP32 · Orange Pi (arm64 Linux) · custom cyberdeck
+motto:     "Designing systems that scale with logic."
+```
+
+I like problems that sit between layers: a video encoder that is too slow, a chat that loads from the network when it could load from disk, a recommender that should learn from a scroll instead of a rule. I fix them at the root, measure the result, and ship.
+
+---
+
+## 🔭 Now building: **Shovrum**
+
+> A full social platform, built end to end. Feed with reply chains and polls, Reels and Stories with an in-browser editor, encrypted DMs, push notifications and animated profile themes.
+> **Repo:** [`SigalMedia-Frontend`](https://github.com/Bedirhan3428/SigalMedia-Frontend) · **Live:** [sigalmedia.com.tr](https://sigalmedia.com.tr) · formerly *Sigal Media*
+
+| Area | What I built | Result |
+|---|---|---|
+| 🎬 **Video editor & export** | CapCut-style Reels timeline, Story and Post studios. Export runs on a **WebGL2 compositor** with zero-copy `VideoFrame(canvas)` encoding, a remux fast path and HEVC/AV1 demux | 11 s clip with text: **10 s → 2 s** export, SSIM 0.997 |
+| 💬 **Messaging** | Messages are encrypted on the client with the server's RSA public key (envelope encryption), with reactions, long-press menus, per-chat themes synced to both sides | Re-opening a chat **~360 ms → ~110 ms** via an IndexedDB cache-first feed and windowed pagination |
+| 🔔 **Web Push** | VAPID push with the sender's avatar, an **inline "Reply" action** secured by an HMAC token, and the last 5 messages stacked per chat | Works on installed Android PWAs |
+| 🧵 **Feed** | Card feed with **reply chains** (answer a post with a post, linked by a thin arrow), animated polls, a badge system with bronze, silver and gold tiers | Typed service layer, ready to swap backends |
+| 🎨 **Profiles** | 4 profile themes, 10 code-drawn animated banners, an iTunes-powered profile song | Banners pause off-screen and respect reduced motion |
+| 🛠️ **Workflow** | Orchestrated AI coding agents across Git worktrees: one branch per work package, automated Playwright E2E checks, backups before every merge | 160+ commits of reviewed, tested changes |
+
+---
+
+## 🧠 Selected projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [Keşfet Motoru](https://github.com/Bedirhan3428/kesfet-motoru)
+**Self-learning discovery engine**
+32-dimensional latent matrix factorisation trained with **online SGD**, with a **UCB bandit** for exploration. It learns from scroll speed, dwell time and likes in real time instead of static rules.
+`Node.js` `Express` `ML`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎙️ [Chatbox](https://github.com/Bedirhan3428/chatbox)
+**Peer-to-peer voice rooms**
+1:1 and up to 4-person mesh calls in React Native. Audio flows device to device over **DTLS-SRTP**; the server only relays SDP and ICE.
+`Expo` `WebRTC` `WebSocket`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 📦 [StokPro](https://github.com/Bedirhan3428/stokpro)
+**Stock, POS and accounting SaaS**
+Optimistic UI on a local master-data cache, camera and USB **barcode scanning**, e-invoice and PDF printing, Excel export, sales and ledger dashboards.
+`Next.js 16` `Firebase` `Chart.js` · [live](https://stokpro.vercel.app)
+
+</td>
+<td valign="top">
+
+### 📺 [llofth](https://github.com/Bedirhan3428/llofth)
+**Local media gateway**
+A streaming portal for Smart TV, phone and desktop: HLS playback, a YouTube-style watch page, continue-watching, and smart-home hooks.
+`Next.js` `HLS.js` `ffmpeg` · [live](https://llofth.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🎞️ [Clofthel](https://github.com/Bedirhan3428/clofthel-backend)
+**Mobile streaming app & aggregation backend**
+Expo app with intro skipping, offline-friendly caching and notifications, backed by a scheduled aggregation service on MongoDB Atlas.
+`React Native` `Expo SDK 54` `Node.js` `MongoDB`
+
+</td>
+<td valign="top">
+
+### 🛡️ [Ashfir Agent](https://github.com/Bedirhan3428/ashfir-agent)
+**Encrypted cloud backup agent**
+LLM-assisted file selection keeps only valuable documents. Files are **AES-256 encrypted on the client** before upload. Moving the server side to Cloud Functions cut hosting costs by about 90%.
+`Python` `Groq · Llama 3.3` `GCP`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🛍️ [MHM Collection](https://github.com/Bedirhan3428/mhmcollection)
+**Serverless e-commerce**
+Cart and checkout flow with tight Firestore security rules, so the database can't be tampered with from the client.
+`React` `Cloud Functions` `Firestore` · [live](https://mhmcollection.vercel.app)
+
+</td>
+<td valign="top">
+
+### 🧩 [Şigal New Tab](https://github.com/Bedirhan3428/SIGAL_EXTENSION)
+**Chrome extension (Manifest V3)**
+Opens a web app in the new tab with no white flash: instant cache, DNS prefetch and TLS preconnect.
+`Chrome MV3` `JavaScript`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔌 Off the screen
+
+- **ESP32 firmware:** low-latency C++ for sensors, telemetry and wireless transmission.
+- **Orange Pi 4 Pro:** headless arm64 Linux builds and GPIO integration running background agents.
+- **Alya:** an offline voice assistant that captures audio locally and runs system actions on recognised commands.
+- **Cyberdeck:** a self-built portable computer that ties all of the above together.
+
+---
+
+## 🛠️ Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,cpp,tailwind,firebase,mongodb,gcp,vercel,linux,raspberrypi,arduino,git&perline=8" alt="Skills" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/WebGL2-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL2" />
+  <img src="https://img.shields.io/badge/WebCodecs-1C1917?style=flat-square&logo=googlechrome&logoColor=F59E0B" alt="WebCodecs" />
+  <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
+  <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Vertex AI" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+</p>
+
+---
+
+## 📈 Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Bedirhan3428&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=F59E0B&icon_color=F59E0B&text_color=D4D4D8&count_private=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bedirhan3428&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=F59E0B&text_color=D4D4D8&langs_count=6" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Bedirhan3428&bg_color=0A0A0A&color=D4D4D8&line=F59E0B&point=FAFAFA&area=true&area_color=F59E0B&hide_border=true" alt="Contribution graph" />
 </p>
 
 ---
 
 <p align="center">
-  <i>"Designing systems that scale with logic."</i><br>
-  <b>SYS_OPT_01 // AI DRIVEN // ANIONICS</b>
+  <i>"Designing systems that scale with logic."</i><br/>
+  <sub><b>SYS_OPT_01 // AI DRIVEN // ALWAYS SHIPPING</b></sub>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:F59E0B,45:1C1917,100:09090B" alt="" />
 </p>
