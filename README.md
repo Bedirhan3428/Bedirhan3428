@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=F59E0B&center=true&vCenter=true&width=620&lines=17+y%2Fo+system+%26+full-stack+architect;Building+Shovrum%2C+a+social+app%2C+from+scratch;WebGL2+video+export%2C+E2E+chat%2C+web+push;ESP32+%C2%B7+Orange+Pi+%C2%B7+offline+voice+AI" alt="Typing intro" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=F59E0B&center=true&vCenter=true&width=620&lines=16+y%2Fo+system+%26+full-stack+architect;Building+Shovrum%2C+a+social+app%2C+from+scratch;WebGL2+video+export%2C+E2E+chat%2C+web+push;ESP32+%C2%B7+Orange+Pi+%C2%B7+offline+voice+AI" alt="Typing intro" /></a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ```yaml
 name:      Bedirhan İmer
-age:       17
+age:       16
 role:      System & Full-Stack Architect · AI-driven developer · hardware tinkerer
 building:  Shovrum, a social app (feed, reels, stories, chat, video editor)
 stack:     TypeScript · Next.js · React Native · Node.js · Python · Firebase · GCP
